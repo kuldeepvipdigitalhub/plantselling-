@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">24
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Nursery</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    
+    body {
+        color: rgb(205, 78, 78);
+        margin: 0px;
+        padding: 0px;
+        background: url('image/bg.jpg');
+        background-size: 1480px 800px;
+    }
+    
+    .left {
+        border: 2px solid red;
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 22px;
+    }
+    
+    .left img {
+        width: 150px;
+    }
+    
+    .mid {
+        border: 2px solid green;
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        top: 22px;
+    }
+    
+    .right {
+        border: 2px solid yellow;
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 22px;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+    
+    .navbar li a {
+        color: red;
+        text-decoration: none;
+        padding: 20px 25px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: lightseagreen;
+    }
+    
+    .btn {
+        margin: 0px 9px;
+        background-color: rgb(140, 240, 207);
+        color: brown;
+        padding: 10px 30px;
+        border: 3px solid red;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .btn:hover,
+    .btn.active {
+        background-color: rgb(138, 127, 204);
+        color: rgb(255, 247, 6);
+        text-decoration: underline rgb(16, 15, 15);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="image/logo.jpg"> </div>
+
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home </a></li>
+                <li><a href="#"> About-Us</a> </li>
+                <li><a href="reg.html"> Registation </a> </li>
+                <li><a href="login.html"> Login </a>
+
+                </li>
+
+
+                <li><a href="#"> Gallary</a> </li>
+            </ul>
+        </div>
+
+        <!--right box for button -->
+        <div class="right">
+            <button class="btn">Cart</button>
+
+        </div>
+    </header>
+</body>
+
+</html>
